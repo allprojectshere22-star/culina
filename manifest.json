@@ -1,0 +1,31 @@
+{
+  "name": "Cúlina",
+  "short_name": "Cúlina",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf8f5",
+  "theme_color": "#094E62",
+  "description": "A recipe app with cuisines and categories.",
+  "icons": [
+    {
+      "src": "appicon-192.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "appicon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "Culina.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
