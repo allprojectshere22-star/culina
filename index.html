@@ -933,6 +933,32 @@
 </head>
 <body>
 
+<!-- SPLASH SCREEN -->
+<style>
+  #splashScreen {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: #0f5c6e url('Culina.png') center center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: culinaFadeOut 0.6s ease forwards;
+    animation-delay: 4.4s;
+  }
+  @keyframes culinaFadeOut {
+    from { opacity: 1; visibility: visible; }
+    to { opacity: 0; visibility: hidden; }
+  }
+</style>
+<div id="splashScreen"></div>
+<script>
+  setTimeout(function () {
+    var splash = document.getElementById('splashScreen');
+    if (splash) splash.remove();
+  }, 5000);
+</script>
+
 <!-- HOME SCREEN -->
 <div class="screen active" id="s-home">
   <div class="top-bar">
