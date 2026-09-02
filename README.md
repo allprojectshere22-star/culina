@@ -1,0 +1,1 @@
+Cúlina is a simple and user-friendly recipe app that lets you discover, create, and organize your favorite dishes. You can add your own recipes with images and steps, explore different cuisines, convert measurements easily, and back up your data all in one convenient place.
